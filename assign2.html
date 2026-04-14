@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Movie Profiles - The Lord of the Rings</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap" rel="stylesheet">
+    
+    <style>
+        /* 1. Basic Page Styles (Match Assignment 1) */
+        body {
+            background-color: #2c3e50; /* Dark blue-grey */
+            color: #ecf0f1;           /* Off-white */
+            font-family: 'Roboto', sans-serif;
+            margin: 20px;
+        }
+
+        h1, h2 {
+            color: #f1c40f;           /* Yellow/Gold */
+        }
+
+        /* 3 & 7. Div Styles (The Boxes) */
+        div {
+            width: 85%;               /* 80-90% width */
+            background-color: #34495e; /* Different from body background */
+            border: 3px solid #f1c40f; /* Colored solid border */
+            border-radius: 15px;      /* Rounded corners */
+            box-shadow: 10px 10px 20px rgba(0,0,0,0.5); /* Drop shadow */
+            
+            margin-bottom: 30px;      /* Space between divs */
+            padding: 20px;            /* Space inside divs */
+            
+            /* Centering the divs */
+            margin-left: auto;
+            margin-right: auto;
+
+            /* Cool Challenge: Smooth transition for hover */
+            transition: transform 0.3s, background-color 0.3s;
+        }
+
+        /* Cool Challenge: Hover effect */
+        div:hover {
+            background-color: #3d566e;
+            transform: scale(1.01); /* Subtle grow effect */
+            border-color: #ffffff;
+        }
+
+        img {
+            max-width: 300px;
+            display: block;
+            margin: 10px 0;
+            border-radius: 5px;
+        }
+
+        a {
+            color: #3498db;
+        }
+    </style>
+</head>
+<body>
+
+    <p><a href="index.html">Back to Assignment 1 (Characters)</a></p>
+
+    <div>
+        <img src="logo.png" alt="Series Logo" style="width:100px;">
+        <h1>The Lord of the Rings Trilogy</h1>
+    </div>
+
+    <div>
+        <h2>The Fellowship of the Ring</h2>
+        <p><strong>Released:</strong> 2001 | <strong>Director:</strong> Peter Jackson | <strong>Studio:</strong> New Line Cinema</p>
+        <img src="movie1.jpg" alt="Fellowship Poster">
+        <p>
+            A meek Hobbit from the Shire and eight companions set out on a journey to destroy the powerful One Ring and save Middle-earth from the Dark Lord Sauron.
+            <br>
+            <a href="https://www.imdb.com/title/tt0120737/plotsummary">Plot Source: IMDb</a>
+        </p>
+    </div>
+
+    <div>
+        <h2>The Return of the King</h2>
+        <p><strong>Released:</strong> 2003 | <strong>Director:</strong> Peter Jackson | <strong>Studio:</strong> New Line Cinema</p>
+        <img src="movie3.jpg" alt="Return of the King Poster">
+        <p>
+            Gandalf and Aragorn lead the World of Men against Sauron's army to draw his gaze from Frodo and Sam as they approach Mount Doom with the One Ring.
+        </p>
+    </div>
+
+    <div>
+        <h2>Other Movies in the Series</h2>
+        <ul>
+            <li>The Two Towers (2002) - Directed by Peter Jackson, New Line Cinema</li>
+            <li>The Hobbit: An Unexpected Journey (2012) - Directed by Peter Jackson, Warner Bros.</li>
+            <li>The Hobbit: The Desolation of Smaug (2013) - Directed by Peter Jackson, Warner Bros.</li>
+        </ul>
+    </div>
+
+</body>
+</html>
