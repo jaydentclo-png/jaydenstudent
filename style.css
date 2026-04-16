@@ -1,0 +1,47 @@
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(0, 0, 0);
+    background-color: #1a1a1a; /* Dark background for the whole page */
+}
+
+/* 2. Main Container */
+#maincontent {
+    width: 60%;
+    margin: 30px auto; 
+    padding: 20px;
+    background-color: #ffffff; 
+    border: 2px solid #fff704; /* Batman Yellow Border */
+}
+
+/* 3. Table Layout */
+table {
+    width: 90%; 
+    margin: 0 auto;
+    border-collapse: collapse; 
+}
+
+/* 4. Table Borders */
+table, td {
+    border: 3px solid #333; /* Dark grey borders look better on black than pure black */
+}
+
+/* 5. Cell Spacing */
+td {
+    padding: 15px;
+    vertical-align: middle; 
+}
+
+/* 6. Navigation Bar */
+#navbar {
+    background-color: #a7ac26;
+    padding: 15px;
+    text-align: center;
+}
+
+#navbar a {
+    color: black; /* Changed to black so it's readable on the yellow bar */
+    margin: 0 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
