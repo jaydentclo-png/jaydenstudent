@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar">
+            <li><a href="final.html">Home</a></li>
+            <li><a href="final2.html">About</a></li>
+            <li><a href="final3.html">Gallery</a></li>
+            <li><a href="final4.html">Quiz</a></li>
+            <li><a href="final5.html">Secrete box and contact</a></li>
+    </nav>
+
+    
+   
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Secret Box Project</title>
+</head>
+<body>
+
+    <div class="secret-container" style="text-align: center; margin-top: 50px;">
+        <h2>The Salazar Secret Box</h2>
+        
+        <input type="text" id="boxInput" placeholder="Enter password..." style="padding: 10px; font-size: 16px;">
+        
+        <button onclick="checkPassword()" style="padding: 10px 20px; font-size: 16px; cursor: pointer;">Unlock</button>
+        
+        <div id="secretBoxContent" style="display: none; margin-top: 20px; border: 1px solid #ccc; padding: 20px; background-color: #f9f9f9;">
+            <p><strong>Secret Information:</strong> Salazar was a frugal man and quiet person.</p>
+        </div>
+    </div>
+
+    <script>
+    function checkPassword() {
+        let password = document.getElementById("boxInput").value;
+        
+        if (password === "1974") {
+            alert("Success!");
+            document.getElementById("secretBoxContent").style.display = "block";
+        } else {
+            alert("Wrong password. Access denied!");
+        }
+    }
+    </script>
+
+</body>
+</html>
+
+    <div id="main-container">
+        
+            <div class="card interactive-card">
+                <h2> Contact/Source Used</h2>
+    <ul>
+        <li>EBSCO - António de Oliveira Salazar</li>
+        <li>Britannica - António de Oliveira Salazar</li>
+        
+    </ul>
+
+    <hr> <h3>Contact the Creator</h3>
+    <p>If you have questions about this research project, ask me.</p>
+    
+    <p>jaydentc.lo@tis.edu.mo</p>
+
+    <img src="https://static.todamateria.com.br/upload/ca/rm/carmonasalazarbb.jpg" alt="">
+    <p>Propoganda during Salazar's regime</p>
+
+    </div>
+</body>
+</html>
